@@ -1,0 +1,38 @@
+# Core RAG Dependencies
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+langchain-huggingface>=0.0.1
+langgraph>=0.0.40
+openai>=1.0.0
+
+# Hugging Face dependencies
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Vector Store
+faiss-cpu>=1.7.4
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# UI Framework
+streamlit>=1.28.0
+
+# Document Processing
+pypdf>=3.0.0
+python-multipart>=0.0.6
+
+# Web Scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Additional Utilities
+pydantic>=2.0.0
+typing-extensions>=4.8.0
