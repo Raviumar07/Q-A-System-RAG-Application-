@@ -50,10 +50,12 @@ env/
 ehthumbs.db
 Thumbs.db
 
-# Project Specific
-src/backend/data/chunks/
-src/backend/data/pdfs/
-src/backend/data/webs/
+# Project Specific - Only ignore the content, not the directories themselves
+src/backend/data/chunks/*.json
+src/backend/data/chunks/*.txt
+src/backend/data/pdfs/*.pdf
+src/backend/data/webs/*.txt
+src/backend/data/webs/*.html
 
 # Logs
 *.log
@@ -65,6 +67,8 @@ logs/
 temp/
 tmp/
 
-# Model downloads
-models/
+# Model downloads (downloaded ML models, not source code)
+*.bin
+*.safetensors
+huggingface_cache/
 .cache/
